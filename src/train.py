@@ -55,6 +55,7 @@ if __name__=='__main__':
 
         if not torch.cuda.is_available():
             save(model, opt, epoch+e)
+            sys.exit(0)
 
         for i, (x, y) in enumerate(train_dl):
             X = x.to(device)
