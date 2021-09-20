@@ -83,12 +83,3 @@ for d in dirs:
         print(f'Dir: {path} has {num_files} files')
 
 print(f'Total: {file_count} files')
-#file_count = 0
-#for d in dirs:
-#    path = os.path.join(os.getcwd(), d)
-#    num_files = len([f for f in os.listdir(path)
-#        if os.path.isfile(os.path.join(path, f))])
-#    file_count += num_files
-#    print(f'Dir: {path} has {num_files} files')
-#
-#print(f'Total: {file_count} files')
