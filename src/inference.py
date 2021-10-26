@@ -20,7 +20,7 @@ if __name__=='__main__':
     if args.model == 'CNN':
         model = CNN().to(device)
         dims = (256,256)
-    if args.model == 'CNN_AE':
+    elif args.model == 'CNN_AE':
         model = CNN_AE().to(device)
         dims = (128,128)
     else:
